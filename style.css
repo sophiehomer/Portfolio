@@ -1,3 +1,19 @@
+/* HEADER STYLES START */
+header {
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+background-color: coral;
+}
+
+/* HEADER STYLES END */
+
+/* SECTION STYLES START */
+
 section {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -20,14 +36,6 @@ section h2 {
     flex-wrap: wrap;
     align-items: center;
   }
+/* SECTION STYLES END */
 
-header {
-    background-color: blueviolet;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-header nav {
-background-color: coral;
-}
