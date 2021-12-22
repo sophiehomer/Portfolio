@@ -68,4 +68,18 @@ section h2 {
   }
 /* SECTION STYLES END */
 
+.about-me p {
+  line-height: 1.7;
+  color: var(--tertiary-color);
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  }
 
+  .contact p {
+  line-height: 1.7;
+  color: var(--tertiary-color);
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+  }
