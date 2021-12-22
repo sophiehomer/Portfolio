@@ -1,0 +1,33 @@
+section {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+section h2 {
+    color: var(--secondary-color);
+    font-size: 46px;
+    flex: 1 30%;
+  }
+
+.section-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+header {
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+background-color: coral;
+}
