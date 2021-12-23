@@ -10,7 +10,7 @@ body {
   }
   
 
-/* HEADER STYLES START */
+/* HEADER/NAV BAR STYLES START */
 header {
     padding: 20px 35px;
     background-color: rgb(241, 244, 242);
@@ -22,25 +22,67 @@ header {
     top:0;
 }
 
+header h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: var(--primary-color);
+  
+}
+
+header nav {
+  margin: 7px 0;
+}
+
 header nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 15px;
-    margin-right: 20px;
+    padding: 10px 15px;
     float: right;   
     font-size: 20px;
     color: black;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
   }
 
-header h2 {
+  header nav a:hover {
+  color: inherit;
+  text-decoration: underline 0.15em black;
+  text-decoration-color: black;
+  }
+
+  header h2 {
     font-size: 48px;
     color: black;
 }
 
-/* HEADER STYLES END */
+
+/* HEADER/NAV BAR STYLES END */
 
 
+/* HEADER/NAV BAR STYLES END */
+footer {
+  background-color: rgb(241, 244, 242);
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color: var(--secondary-color);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+/* HEADER/NAV BAR STYLES END */
 
 /* SECTION STYLES START */
 
@@ -76,10 +118,12 @@ section h2 {
   font-size: 20px;
   }
 
-  .contact p {
+
+.contact p {
   line-height: 1.7;
   color: var(--tertiary-color);
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
   }
+
