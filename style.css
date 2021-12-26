@@ -57,12 +57,9 @@ header nav a {
     font-size: 48px;
     color: black;
 }
-
-
 /* HEADER/NAV BAR STYLES END */
 
-
-/* HEADER/NAV BAR STYLES END */
+/* FOOTER STYLES START */
 footer {
   background-color: rgb(241, 244, 242);
   padding: 40px 35px;
@@ -82,49 +79,48 @@ footer div {
   line-height: 1.5;
   text-align: right;
 }
-/* HEADER/NAV BAR STYLES END */
+/* FOOTER STYLES END */
 
 /* SECTION STYLES START */
-
 section {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-  }
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
   
 section h2 {
-    color: var(--secondary-color);
-    font-size: 46px;
-    flex: 1 30%;
-  }
+  font-size: 46px;
+  flex: 1 30%;
+}
 
 .section-info {
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  flex: 2 70%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 /* SECTION STYLES END */
 
+/* "ABOUT ME" STYLES START */
 .about-me p {
   line-height: 1.7;
   color: var(--tertiary-color);
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
-  }
+}
+/* "ABOUT ME" STYLES END */
 
-
+/* "CONTACT" STYLES START */
 .contact a {
   line-height: 1.7;
   color: var(--tertiary-color);
   width: 80%;
   margin: 0 auto;
-  font-size: 20px;
-  
+  font-size: 20px;  
 }
-
+/* "CONTACT" STYLES END */
