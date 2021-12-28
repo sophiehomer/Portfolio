@@ -119,10 +119,10 @@ section h2 {
 
 /* "MY WORK" STYLES START */
 
-.horiseon {
+.run-buddy {
   height: 200px;
   width: 600px;
-  background-image: url("images/horiseon.png");
+  background-image: url("images/run-buddy.png");
   background-size: cover;
   background-position: center top;
   display: block;
