@@ -80,8 +80,9 @@ footer div {
 
 /* SECTION STYLES START */
 section {
-  margin: 50px auto;
-  padding-bottom: 50px;
+  margin-bottom: 150px;
+  padding: 50px;
+  height: 300px;
   width: 80%;
   display: flex;
   flex-wrap: wrap;
@@ -117,6 +118,7 @@ section h2 {
 /* "ABOUT ME" STYLES END */
 
 /* "MY WORK" STYLES START */
+
 .container {
   position: relative;
 }
@@ -129,14 +131,13 @@ section h2 {
   padding-right: 5px;
   background-color: #f4f2ed;
   color: black;
-  
-
 }
 
 .text-block h2 {
   font-size: 25px;
 }
 
+/* RUN BUDDY */
 .run-buddy-img {
   height: 200px;
   width: 600px;
@@ -145,6 +146,7 @@ section h2 {
   background-position: center top;
   display: block;
   margin-right: 75px;
+  margin-bottom: 10px;
   border: 5px solid #f4f2ed;
 }
 
@@ -152,8 +154,20 @@ section h2 {
   opacity: .5;
 }
 
+/* HORISEON */
+.horiseon-img {
+  height: 150px;
+  width: 300px;
+  background-image: url("images/horiseon.png");
+  background-size: cover;
+  background-position: center;
+  display: block;
+  border: 5px solid #f4f2ed;
+}
 
-
+.horiseon-img:hover {
+  opacity: .5;
+}
 
 /* "MY WORK" STYLES END */
 
