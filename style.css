@@ -90,7 +90,7 @@ section {
 }
 
 section h2 {
-  font-size: 46px;
+  font-size: 35px;
   flex: 1 30%;
 }
 
@@ -117,8 +117,27 @@ section h2 {
 /* "ABOUT ME" STYLES END */
 
 /* "MY WORK" STYLES START */
+.container {
+  position: relative;
+}
 
-.run-buddy {
+.text-block {
+  position: absolute;
+  left: 0pt;
+  height: 30px;
+  padding-left: 7px;
+  padding-right: 5px;
+  background-color: #f4f2ed;
+  color: black;
+  
+
+}
+
+.text-block h2 {
+  font-size: 25px;
+}
+
+.run-buddy-img {
   height: 200px;
   width: 600px;
   background-image: url("images/run-buddy.png");
@@ -128,6 +147,11 @@ section h2 {
   margin-right: 75px;
   border: 5px solid #f4f2ed;
 }
+
+.run-buddy-img:hover {
+  opacity: .5;
+}
+
 
 
 
