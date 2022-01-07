@@ -1,202 +1,265 @@
-                                    * {
-                                        box-sizing: border-box;
-                                        margin: 0;
-                                        padding: 0;
-                                    }
-                                    
-                                    body {
-                                        font-family: Arial, Helvetica, sans-serif;
-                                    }
-                                    /* HEADER/NAV BAR STYLES START */
-                                    
-                                    header {
-                                        padding: 20px 35px;
-                                        margin-bottom: 5%;
-                                        background-color: #f4f2ed;
-                                        display: flex;
-                                        justify-content: space-between;
-                                        flex-wrap: wrap;
-                                        position: sticky;
-                                        position: -webkit-sticky;
-                                        top: 0;
-                                        z-index: 5;
-                                    }
-                                    
-                                    header h1 {
-                                        font-weight: bold;
-                                        margin: 0;
-                                        font-size: 36px;
-                                        color: var(--primary-color);
-                                    }
-                                    
-                                    header nav {
-                                        margin: 7px 0;
-                                    }
-                                    
-                                    header nav a {
-                                        display: flex;
-                                        flex-wrap: wrap;
-                                        justify-content: space-between;
-                                        padding: 10px 15px;
-                                        float: left;
-                                        font-size: 20px;
-                                        color: black;
-                                        list-style: none;
-                                        text-decoration: none;
-                                        align-items: center;
-                                    }
-                                    
-                                    header nav a:hover {
-                                        color: inherit;
-                                        text-decoration: underline 0.15em black;
-                                        text-decoration-color: black;
-                                    }
-                                    
-                                    header h2 {
-                                        font-size: 48px;
-                                        color: black;
-                                    }
-                                    /* HEADER/NAV BAR STYLES END */
-                                    /* FOOTER STYLES START */
-                                    
-                                    footer {
-                                        background-color: #f4f2ed;
-                                        padding: 40px 35px;
-                                        display: flex;
-                                        justify-content: space-between;
-                                        flex-wrap: wrap;
-                                        width: 100%;
-                                    }
-                                    
-                                    footer h2 {
-                                        color: var(--secondary-color);
-                                        font-size: 30px;
-                                        margin: 0;
-                                    }
-                                    
-                                    footer div {
-                                        line-height: 1.5;
-                                        text-align: right;
-                                    }
-                                    /* FOOTER STYLES END */
-                                    /* SECTION STYLES START */
-                                    
-                                    section {
-                                        margin-bottom: 150px;
-                                        padding: 50px;
-                                        height: 300px;
-                                        width: 80%;
-                                        display: flex;
-                                        flex-wrap: nowrap;
-                                        align-items: center;
-                                    }
-                                    
-                                    section h2 {
-                                        font-size: 35px;
-                                        flex: 0 0 30%;
-                                    }
-                                    
-                                    .section-info {
-                                        flex: 0 0 70%;
-                                        display: flex;
-                                        align-items: center;
-                                    }
-                                    /* SECTION STYLES END */
-                                    /* "ABOUT ME" STYLES START */
-                                    
-                                    .about-me p {
-                                        line-height: 1.7;
-                                        color: var(--tertiary-color);
-                                        width: 100%;
-                                        margin: 0 auto;
-                                        font-size: 20px;
-                                        padding-left: 15px;
-                                    }
-                                    
-                                    .about-me img {
-                                        max-height: 350px;
-                                    }
-                                    /* "ABOUT ME" STYLES END */
-                                    /* "MY WORK" STYLES START */
-                                    
-                                    .container {
-                                        /* position: relative; */
-                                        display: flex;
-                                        flex-wrap: wrap;
-                                        align-items: flex-end;
-                                    }
-                                    
-                                    .container-img {
-                                        position: relative;
-                                    }
-                                    
-                                    .text-block {
-                                        position: absolute;
-                                        left: 0pt;
-                                        height: 30px;
-                                        padding-left: 7px;
-                                        padding-right: 5px;
-                                        background-color: #f4f2ed;
-                                        color: black;
-                                    }
-                                    
-                                    .text-block h2 {
-                                        font-size: 25px;
-                                    }
-                                    /* RUN BUDDY */
-                                    
-                                    .run-buddy-img {
-                                        height: 200px;
-                                        width: 600px;
-                                        background-image: url("images/run-buddy.png");
-                                        background-size: cover;
-                                        background-position: center top;
-                                        display: block;
-                                        margin-right: 0;
-                                        margin-bottom: 10px;
-                                        border: 5px solid #f4f2ed;
-                                    }
-                                    
-                                    .run-buddy-img:hover {
-                                        opacity: .5;
-                                    }
-                                    /* HORISEON */
-                                    
-                                    .horiseon-img {
-                                        height: 150px;
-                                        width: 300px;
-                                        background-image: url("images/horiseon.png");
-                                        background-size: cover;
-                                        background-position: center;
-                                        display: block;
-                                        border: 5px solid #f4f2ed;
-                                    }
-                                    
-                                    .horiseon-img:hover {
-                                        opacity: .5;
-                                    }
-                                    /* "MY WORK" STYLES END */
-                                    /* "CONTACT" STYLES START */
-                                    
-                                    .contact a {
-                                        line-height: 1.7;
-                                        color: var(--tertiary-color);
-                                        width: 80%;
-                                        margin: 0 auto;
-                                        font-size: 20px;
-                                    }
-                                    /* "CONTACT" STYLES END */
-                                    /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-                                    
-                                    @media only screen and (max-width: 425px) {
-                                        section {
-                                            flex-direction: column;
-                                            background-color: seagreen;
-                                        }
-                                        h2 {
-                                            background-color: red;
-                                        }
-                                        p {
-                                            background-color: purple
-                                        }
-                                    }
+                                                                                                                        * {
+                                                                                                                            box-sizing: border-box;
+                                                                                                                            margin: 0;
+                                                                                                                            padding: 0;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        body {
+                                                                                                                            font-family: Arial, Helvetica, sans-serif;
+                                                                                                                        }
+                                                                                                                        /* HEADER/NAV BAR STYLES START */
+                                                                                                                        
+                                                                                                                        header {
+                                                                                                                            padding: 20px 35px;
+                                                                                                                            margin-bottom: 5%;
+                                                                                                                            background-color: #f4f2ed;
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: space-between;
+                                                                                                                            flex-wrap: wrap;
+                                                                                                                            position: sticky;
+                                                                                                                            position: -webkit-sticky;
+                                                                                                                            top: 0;
+                                                                                                                            z-index: 5;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header h1 {
+                                                                                                                            font-weight: bold;
+                                                                                                                            margin: 0;
+                                                                                                                            font-size: 36px;
+                                                                                                                            color: var(--primary-color);
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header nav {
+                                                                                                                            margin: 7px 0;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header nav a {
+                                                                                                                            display: flex;
+                                                                                                                            flex-wrap: wrap;
+                                                                                                                            justify-content: space-between;
+                                                                                                                            padding: 10px 15px;
+                                                                                                                            float: left;
+                                                                                                                            font-size: 20px;
+                                                                                                                            color: black;
+                                                                                                                            list-style: none;
+                                                                                                                            text-decoration: none;
+                                                                                                                            align-items: center;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header nav a:hover {
+                                                                                                                            color: inherit;
+                                                                                                                            text-decoration: underline 0.15em black;
+                                                                                                                            text-decoration-color: black;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        header h2 {
+                                                                                                                            font-size: 48px;
+                                                                                                                            color: black;
+                                                                                                                        }
+                                                                                                                        /* HEADER/NAV BAR STYLES END */
+                                                                                                                        /* FOOTER STYLES START */
+                                                                                                                        
+                                                                                                                        footer {
+                                                                                                                            background-color: #f4f2ed;
+                                                                                                                            padding: 40px 35px;
+                                                                                                                            display: flex;
+                                                                                                                            justify-content: space-between;
+                                                                                                                            flex-wrap: wrap;
+                                                                                                                            width: 100%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        footer h2 {
+                                                                                                                            color: var(--secondary-color);
+                                                                                                                            font-size: 30px;
+                                                                                                                            margin: 0;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        footer div {
+                                                                                                                            line-height: 1.5;
+                                                                                                                            text-align: right;
+                                                                                                                        }
+                                                                                                                        /* FOOTER STYLES END */
+                                                                                                                        /* SECTION STYLES START */
+                                                                                                                        
+                                                                                                                        section {
+                                                                                                                            margin-bottom: 150px;
+                                                                                                                            padding: 50px;
+                                                                                                                            height: 300px;
+                                                                                                                            width: 80%;
+                                                                                                                            display: flex;
+                                                                                                                            flex-wrap: nowrap;
+                                                                                                                            align-items: center;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        section h2 {
+                                                                                                                            font-size: 35px;
+                                                                                                                            flex: 0 0 30%;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .section-info {
+                                                                                                                            flex: 0 0 70%;
+                                                                                                                            display: flex;
+                                                                                                                            align-items: center;
+                                                                                                                        }
+                                                                                                                        /* SECTION STYLES END */
+                                                                                                                        /* "ABOUT ME" STYLES START */
+                                                                                                                        
+                                                                                                                        .about-me {
+                                                                                                                            margin-bottom: 300px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .about-me p {
+                                                                                                                            line-height: 1.7;
+                                                                                                                            color: var(--tertiary-color);
+                                                                                                                            width: 100%;
+                                                                                                                            margin: 0 auto;
+                                                                                                                            font-size: 20px;
+                                                                                                                            padding-left: 15px;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .about-me img {
+                                                                                                                            max-height: 350px;
+                                                                                                                        }
+                                                                                                                        /* "ABOUT ME" STYLES END */
+                                                                                                                        /* "MY WORK" STYLES START */
+                                                                                                                        
+                                                                                                                        .container {
+                                                                                                                            /* position: relative; */
+                                                                                                                            display: flex;
+                                                                                                                            flex-wrap: wrap;
+                                                                                                                            align-items: flex-end;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .container-img {
+                                                                                                                            position: relative;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .text-block {
+                                                                                                                            position: absolute;
+                                                                                                                            left: 0pt;
+                                                                                                                            height: 30px;
+                                                                                                                            padding-left: 7px;
+                                                                                                                            padding-right: 5px;
+                                                                                                                            background-color: #f4f2ed;
+                                                                                                                            color: black;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .text-block h2 {
+                                                                                                                            font-size: 25px;
+                                                                                                                        }
+                                                                                                                        /* RUN BUDDY */
+                                                                                                                        
+                                                                                                                        .run-buddy-img {
+                                                                                                                            height: 200px;
+                                                                                                                            width: 600px;
+                                                                                                                            background-image: url("images/run-buddy.png");
+                                                                                                                            background-size: cover;
+                                                                                                                            background-position: center top;
+                                                                                                                            display: block;
+                                                                                                                            margin-right: 0;
+                                                                                                                            margin-bottom: 10px;
+                                                                                                                            border: 5px solid #f4f2ed;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .run-buddy-img:hover {
+                                                                                                                            opacity: .5;
+                                                                                                                        }
+                                                                                                                        /* HORISEON */
+                                                                                                                        
+                                                                                                                        .horiseon-img {
+                                                                                                                            height: 150px;
+                                                                                                                            width: 300px;
+                                                                                                                            background-image: url("images/horiseon.png");
+                                                                                                                            background-size: cover;
+                                                                                                                            background-position: center;
+                                                                                                                            display: block;
+                                                                                                                            border: 5px solid #f4f2ed;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .horiseon-img:hover {
+                                                                                                                            opacity: .5;
+                                                                                                                        }
+                                                                                                                        /* BON APPETIT */
+                                                                                                                        
+                                                                                                                        .bon-appetit-img {
+                                                                                                                            height: 150px;
+                                                                                                                            width: 300px;
+                                                                                                                            background-image: url("images/bon-appetit.png");
+                                                                                                                            background-size: cover;
+                                                                                                                            background-position: center;
+                                                                                                                            display: block;
+                                                                                                                            border: 5px solid #f4f2ed;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .bon-appetit-img:hover {
+                                                                                                                            opacity: .5;
+                                                                                                                        }
+                                                                                                                        /* AERIAL */
+                                                                                                                        
+                                                                                                                        .aerial-img {
+                                                                                                                            height: 150px;
+                                                                                                                            width: 300px;
+                                                                                                                            background-image: url("images/aerial.png");
+                                                                                                                            background-size: cover;
+                                                                                                                            background-position: center;
+                                                                                                                            display: block;
+                                                                                                                            border: 5px solid #f4f2ed;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .aerial-img:hover {
+                                                                                                                            opacity: .5;
+                                                                                                                        }
+                                                                                                                        /* STROMA  */
+                                                                                                                        
+                                                                                                                        .stroma-img {
+                                                                                                                            height: 150px;
+                                                                                                                            width: 300px;
+                                                                                                                            background-image: url("images/stroma.png");
+                                                                                                                            background-size: cover;
+                                                                                                                            background-position: center;
+                                                                                                                            display: block;
+                                                                                                                            border: 5px solid #f4f2ed;
+                                                                                                                        }
+                                                                                                                        
+                                                                                                                        .stroma-img:hover {
+                                                                                                                            opacity: .5;
+                                                                                                                        }
+                                                                                                                        /* "MY WORK" STYLES END */
+                                                                                                                        /* "CONTACT" STYLES START */
+                                                                                                                        
+                                                                                                                        .contact a {
+                                                                                                                            line-height: 1.7;
+                                                                                                                            color: var(--tertiary-color);
+                                                                                                                            width: 80%;
+                                                                                                                            margin: 0 auto;
+                                                                                                                            font-size: 20px;
+                                                                                                                        }
+                                                                                                                        /* "CONTACT" STYLES END */
+                                                                                                                        /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+                                                                                                                        
+                                                                                                                        @media only screen and (max-width: 425px) {
+                                                                                                                            header {
+                                                                                                                                display: flex;
+                                                                                                                                justify-content: center;
+                                                                                                                            }
+                                                                                                                            header nav {
+                                                                                                                                display: flex;
+                                                                                                                                flex-wrap: wrap;
+                                                                                                                                justify-content: center
+                                                                                                                            }
+                                                                                                                            .about-me {
+                                                                                                                                margin-bottom: 700px;
+                                                                                                                                margin-top: 350px;
+                                                                                                                            }
+                                                                                                                            .about-me h2 {
+                                                                                                                                flex: 1 100%;
+                                                                                                                                text-align: center;
+                                                                                                                            }
+                                                                                                                            .about-me p {
+                                                                                                                                width: 100%;
+                                                                                                                            }
+                                                                                                                            .section-info {
+                                                                                                                                display: flex;
+                                                                                                                                flex-wrap: wrap;
+                                                                                                                            }
+                                                                                                                        }
