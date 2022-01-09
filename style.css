@@ -68,7 +68,7 @@
                                                                                                                             width: 100%;
                                                                                                                         }
                                                                                                                         
-                                                                                                                        footer h2 {
+                                                                                                                        footer h5 {
                                                                                                                             color: var(--secondary-color);
                                                                                                                             font-size: 30px;
                                                                                                                             margin: 0;
@@ -82,7 +82,7 @@
                                                                                                                         /* SECTION STYLES START */
                                                                                                                         
                                                                                                                         section {
-                                                                                                                            margin-bottom: 150px;
+                                                                                                                            margin-bottom: 100px;
                                                                                                                             padding: 50px;
                                                                                                                             height: 300px;
                                                                                                                             width: 80%;
@@ -96,6 +96,11 @@
                                                                                                                             flex: 0 0 30%;
                                                                                                                         }
                                                                                                                         
+                                                                                                                        section h4 {
+                                                                                                                            font-size: 35px;
+                                                                                                                            flex: 0 0 30%;
+                                                                                                                        }
+                                                                                                                        
                                                                                                                         .section-info {
                                                                                                                             flex: 0 0 70%;
                                                                                                                             display: flex;
@@ -105,7 +110,7 @@
                                                                                                                         /* "ABOUT ME" STYLES START */
                                                                                                                         
                                                                                                                         .about-me {
-                                                                                                                            margin-bottom: 300px;
+                                                                                                                            margin-bottom: 200px;
                                                                                                                         }
                                                                                                                         
                                                                                                                         .about-me p {
@@ -118,7 +123,7 @@
                                                                                                                         }
                                                                                                                         
                                                                                                                         .about-me img {
-                                                                                                                            max-height: 350px;
+                                                                                                                            max-height: 250px;
                                                                                                                         }
                                                                                                                         /* "ABOUT ME" STYLES END */
                                                                                                                         /* "MY WORK" STYLES START */
@@ -241,25 +246,48 @@
                                                                                                                             header {
                                                                                                                                 display: flex;
                                                                                                                                 justify-content: center;
+                                                                                                                                position: relative;
+                                                                                                                                padding: 0px;
+                                                                                                                                width: 100%;
                                                                                                                             }
                                                                                                                             header nav {
                                                                                                                                 display: flex;
                                                                                                                                 flex-wrap: wrap;
-                                                                                                                                justify-content: center
+                                                                                                                                justify-content: center;
                                                                                                                             }
                                                                                                                             .about-me {
                                                                                                                                 margin-bottom: 700px;
                                                                                                                                 margin-top: 350px;
+                                                                                                                                width: 100%;
+                                                                                                                            }
+                                                                                                                            .about-me img {
+                                                                                                                                margin-top: 100px;
                                                                                                                             }
                                                                                                                             .about-me h2 {
-                                                                                                                                flex: 1 100%;
+                                                                                                                                flex: 100%;
                                                                                                                                 text-align: center;
-                                                                                                                            }
-                                                                                                                            .about-me p {
                                                                                                                                 width: 100%;
+                                                                                                                            }
+                                                                                                                            .container {
+                                                                                                                                margin-top: 100px;
                                                                                                                             }
                                                                                                                             .section-info {
                                                                                                                                 display: flex;
                                                                                                                                 flex-wrap: wrap;
+                                                                                                                            }
+                                                                                                                            .content h2 {
+                                                                                                                                flex: 1 100%;
+                                                                                                                                text-align: center;
+                                                                                                                            }
+                                                                                                                            footer {
+                                                                                                                                position: relative;
+                                                                                                                                display: flex;
+                                                                                                                                align-items: stretch;
+                                                                                                                                justify-content: center;
+                                                                                                                                padding: 0px;
+                                                                                                                                width: 100%;
+                                                                                                                            }
+                                                                                                                            footer h5 {
+                                                                                                                                font-size: 20px;
                                                                                                                             }
                                                                                                                         }
