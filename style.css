@@ -5,9 +5,9 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             body {
-                                                                                                                                font-family: Arial, Helvetica, sans-serif;
+                                                                                                                                font-family: "PT sans", Helvetica, sans-serif;
                                                                                                                             }
-                                                                                                                            /* HEADER/NAV BAR STYLES START */
+                                                                                                                            /* HEADER/NAV BAR STYLES */
                                                                                                                             
                                                                                                                             header {
                                                                                                                                 padding: 20px 35px;
@@ -25,7 +25,7 @@
                                                                                                                             header h1 {
                                                                                                                                 font-weight: bold;
                                                                                                                                 margin: 0;
-                                                                                                                                font-size: 36px;
+                                                                                                                                font-size: 25px;
                                                                                                                                 color: var(--primary-color);
                                                                                                                             }
                                                                                                                             
@@ -39,7 +39,7 @@
                                                                                                                                 justify-content: space-between;
                                                                                                                                 padding: 10px 15px;
                                                                                                                                 float: left;
-                                                                                                                                font-size: 20px;
+                                                                                                                                font-size: 15px;
                                                                                                                                 color: black;
                                                                                                                                 list-style: none;
                                                                                                                                 text-decoration: none;
@@ -52,12 +52,7 @@
                                                                                                                                 text-decoration-color: black;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            header h2 {
-                                                                                                                                font-size: 48px;
-                                                                                                                                color: black;
-                                                                                                                            }
-                                                                                                                            /* HEADER/NAV BAR STYLES END */
-                                                                                                                            /* FOOTER STYLES START */
+                                                                                                                            /* FOOTER STYLES  */
                                                                                                                             
                                                                                                                             footer {
                                                                                                                                 background-color: #f4f2ed;
@@ -70,7 +65,7 @@
                                                                                                                             
                                                                                                                             footer h5 {
                                                                                                                                 color: var(--secondary-color);
-                                                                                                                                font-size: 30px;
+                                                                                                                                font-size: 15px;
                                                                                                                                 margin: 0;
                                                                                                                             }
                                                                                                                             
@@ -78,9 +73,8 @@
                                                                                                                                 line-height: 1.5;
                                                                                                                                 text-align: right;
                                                                                                                             }
-                                                                                                                            /* FOOTER STYLES END */
-                                                                                                                            /* SECTION STYLES START */
-                                                                                                                            
+                                                                                                                           
+                                                                                                                            /* SECTION STYLES */
                                                                                                                             section {
                                                                                                                                 margin-bottom: 100px;
                                                                                                                                 padding: 50px;
@@ -92,12 +86,12 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             section h2 {
-                                                                                                                                font-size: 35px;
+                                                                                                                                font-size: 20px;
                                                                                                                                 flex: 0 0 30%;
                                                                                                                             }
                                                                                                                             
                                                                                                                             section h4 {
-                                                                                                                                font-size: 35px;
+                                                                                                                                font-size: 20px;
                                                                                                                                 flex: 0 0 30%;
                                                                                                                             }
                                                                                                                             
@@ -106,9 +100,8 @@
                                                                                                                                 display: flex;
                                                                                                                                 align-items: center;
                                                                                                                             }
-                                                                                                                            /* SECTION STYLES END */
-                                                                                                                            /* "ABOUT ME" STYLES START */
-                                                                                                                            
+
+                                                                                                                            /* "ABOUT ME" STYLES  */
                                                                                                                             .about-me {
                                                                                                                                 margin-bottom: 200px;
                                                                                                                             }
@@ -116,20 +109,19 @@
                                                                                                                             .about-me p {
                                                                                                                                 line-height: 1.7;
                                                                                                                                 color: var(--tertiary-color);
-                                                                                                                                width: 100%;
-                                                                                                                                margin-top: 50px;
-                                                                                                                                font-size: 20px;
-                                                                                                                                padding-left: 15px;
+                                                                                                                                font-size: 15px;
+                                                                                                                                padding-left: 30px;
+                                                                                                                                text-align: center;
+                                                                                                                                line-height: 2;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .about-me img {
-                                                                                                                                max-height: 250px;
+                                                                                                                                max-height: 300px;
+                                                                                                                                max-width: 250px;
                                                                                                                             }
-                                                                                                                            /* "ABOUT ME" STYLES END */
-                                                                                                                            /* "MY WORK" STYLES START */
-                                                                                                                            
+
+                                                                                                                            /* "MY WORK" STYLES */
                                                                                                                             .container {
-                                                                                                                                /* position: relative; */
                                                                                                                                 display: flex;
                                                                                                                                 flex-wrap: wrap;
                                                                                                                                 align-items: flex-end;
@@ -149,9 +141,10 @@
                                                                                                                                 color: black;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .text-block h2 {
-                                                                                                                                font-size: 25px;
+                                                                                                                            .text-block h3 {
+                                                                                                                                font-size: 15px;
                                                                                                                             }
+
                                                                                                                             /* RUN BUDDY */
                                                                                                                             
                                                                                                                             .run-buddy-img {
@@ -184,62 +177,64 @@
                                                                                                                             .horiseon-img:hover {
                                                                                                                                 opacity: .5;
                                                                                                                             }
-                                                                                                                            /* BON APPETIT */
+
+                                                                                                                            /* DINNER & DRINKS */
                                                                                                                             
-                                                                                                                            .bon-appetit-img {
+                                                                                                                            .dinner-drinks-img  {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 300px;
-                                                                                                                                background-image: url("images/bon-appetit.png");
+                                                                                                                                background-image: url("images/dinner&drinks.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
                                                                                                                                 display: block;
                                                                                                                                 border: 5px solid #f4f2ed;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .bon-appetit-img:hover {
+                                                                                                                            .dinner-drinks-img :hover {
                                                                                                                                 opacity: .5;
                                                                                                                             }
-                                                                                                                            /* AERIAL */
+
+                                                                                                                          
+                                                                                                                            /* WEATHER DASHBOARD */
                                                                                                                             
-                                                                                                                            .aerial-img {
+                                                                                                                            .weather-dashboard-img {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 300px;
-                                                                                                                                background-image: url("images/aerial.png");
+                                                                                                                                background-image: url("images/weather-dashboard.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
                                                                                                                                 display: block;
                                                                                                                                 border: 5px solid #f4f2ed;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .aerial-img:hover {
+                                                                                                                            .weather-dashboard-img:hover {
                                                                                                                                 opacity: .5;
                                                                                                                             }
-                                                                                                                            /* STROMA  */
+                                                                                                                            /* WORK DAY SCHEDULER  */
                                                                                                                             
-                                                                                                                            .stroma-img {
+                                                                                                                            .work-day-scheduler-img {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 300px;
-                                                                                                                                background-image: url("images/stroma.png");
+                                                                                                                                background-image: url("images/work-day-scheduler.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
                                                                                                                                 display: block;
                                                                                                                                 border: 5px solid #f4f2ed;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .stroma-img:hover {
+                                                                                                                            .work-day-scheduler-imghover {
                                                                                                                                 opacity: .5;
                                                                                                                             }
-                                                                                                                            /* "MY WORK" STYLES END */
-                                                                                                                            /* "CONTACT" STYLES START */
-                                                                                                                            
+
+                                                                                                                            /* "CONTACT" STYLES */
                                                                                                                             .contact a {
                                                                                                                                 line-height: 1.7;
                                                                                                                                 color: var(--tertiary-color);
                                                                                                                                 width: 80%;
                                                                                                                                 margin: 0 auto;
-                                                                                                                                font-size: 20px;
+                                                                                                                                font-size: 15px;
                                                                                                                             }
-                                                                                                                            /* "CONTACT" STYLES END */
+
                                                                                                                             /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
                                                                                                                             
                                                                                                                             @media only screen and (max-width: 425px) {
@@ -275,13 +270,11 @@
                                                                                                                                 }
                                                                                                                                 .section h2 {
                                                                                                                                     flex: 0 0 100%;
-                                                                                                                                    /* flex-direction: column; */
                                                                                                                                 }
                                                                                                                                 .section-info {
                                                                                                                                     display: flex;
                                                                                                                                     flex: 0 0 100%;
                                                                                                                                     flex-wrap: wrap;
-                                                                                                                                    /* flex-direction: column; */
                                                                                                                                 }
                                                                                                                                 .content h2 {
                                                                                                                                     flex: 1 100%;
