@@ -190,7 +190,7 @@
                                                                                                                                 border: 5px solid #f4f2ed;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .dinner-drinks-img :hover {
+                                                                                                                            .dinner-drinks-img:hover {
                                                                                                                                 opacity: .5;
                                                                                                                             }
 
@@ -222,7 +222,7 @@
                                                                                                                                 border: 5px solid #f4f2ed;
                                                                                                                             }
                                                                                                                             
-                                                                                                                            .work-day-scheduler-imghover {
+                                                                                                                            .work-day-scheduler-img:hover {
                                                                                                                                 opacity: .5;
                                                                                                                             }
 
