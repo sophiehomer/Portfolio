@@ -5,14 +5,14 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             body {
-                                                                                                                                font-family: "PT sans", Helvetica, sans-serif;
+                                                                                                                                font-family: 'Raleway', sans-serif;
+                                                                                                                                background-color: #F5F1E7;
                                                                                                                             }
                                                                                                                             /* HEADER/NAV BAR STYLES */
                                                                                                                             
                                                                                                                             header {
                                                                                                                                 padding: 20px 35px;
                                                                                                                                 margin-bottom: 5%;
-                                                                                                                                background-color: #f4f2ed;
                                                                                                                                 display: flex;
                                                                                                                                 justify-content: space-between;
                                                                                                                                 flex-wrap: wrap;
@@ -48,7 +48,7 @@
                                                                                                                             
                                                                                                                             header nav a:hover {
                                                                                                                                 color: inherit;
-                                                                                                                                text-decoration: underline 0.15em black;
+                                                                                                                                text-decoration: underline .05em black;
                                                                                                                                 text-decoration-color: black;
                                                                                                                             }
                                                                                                                             
@@ -107,7 +107,6 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .about-me p {
-                                                                                                                                line-height: 1.7;
                                                                                                                                 color: var(--tertiary-color);
                                                                                                                                 font-size: 15px;
                                                                                                                                 padding-left: 30px;
@@ -137,6 +136,7 @@
                                                                                                                                 height: 30px;
                                                                                                                                 padding-left: 7px;
                                                                                                                                 padding-right: 5px;
+                                                                                                                                padding-top: 5px;
                                                                                                                                 background-color: #f4f2ed;
                                                                                                                                 color: black;
                                                                                                                             }
@@ -149,14 +149,14 @@
                                                                                                                             
                                                                                                                             .dinner-drinks-img {
                                                                                                                                 height: 200px;
-                                                                                                                                width: 600px;
+                                                                                                                                width: 700px;
                                                                                                                                 background-image: url("images/dinner-drinks.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center top;
                                                                                                                                 display: block;
                                                                                                                                 margin-right: 0;
                                                                                                                                 margin-bottom: 10px;
-                                                                                                                                border: 5px solid #f4f2ed;
+                                                                                                                                border: .5px solid black;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .dinner-drinks-img:hover {
@@ -166,12 +166,14 @@
                                                                                                                             
                                                                                                                             .horiseon-img {
                                                                                                                                 height: 150px;
-                                                                                                                                width: 300px;
+                                                                                                                                width: 345px;
+                                                                                                                                margin-left: 10px;
+                                                                                                                                margin-top: 10px;
                                                                                                                                 background-image: url("images/horiseon.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
                                                                                                                                 display: block;
-                                                                                                                                border: 5px solid #f4f2ed;
+                                                                                                                                border: .5px solid black;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .horiseon-img:hover {
@@ -182,12 +184,12 @@
                                                                                                                             
                                                                                                                             .run-buddy-img  {
                                                                                                                                 height: 150px;
-                                                                                                                                width: 300px;
+                                                                                                                                width: 345px;
                                                                                                                                 background-image: url("images/run-buddy.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
                                                                                                                                 display: block;
-                                                                                                                                border: 5px solid #f4f2ed;
+                                                                                                                                border: .5px solid black;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .run-buddy-img:hover {
@@ -199,12 +201,13 @@
                                                                                                                             
                                                                                                                             .weather-dashboard-img {
                                                                                                                                 height: 150px;
-                                                                                                                                width: 300px;
+                                                                                                                                width: 345px;
+                                                                                                                                margin-left: 10px;
                                                                                                                                 background-image: url("images/weather-dashboard.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
                                                                                                                                 display: block;
-                                                                                                                                border: 5px solid #f4f2ed;
+                                                                                                                                border: .5px solid black;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .weather-dashboard-img:hover {
@@ -214,12 +217,13 @@
                                                                                                                             
                                                                                                                             .work-day-scheduler-img {
                                                                                                                                 height: 150px;
-                                                                                                                                width: 300px;
+                                                                                                                                width: 345px;
+                                                                                                                                margin-top: 10px;
                                                                                                                                 background-image: url("images/work-day-scheduler.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
                                                                                                                                 display: block;
-                                                                                                                                border: 5px solid #f4f2ed;
+                                                                                                                                border: .5px solid black;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .work-day-scheduler-img:hover {
@@ -233,6 +237,11 @@
                                                                                                                                 width: 80%;
                                                                                                                                 margin: 0 auto;
                                                                                                                                 font-size: 15px;
+                                                                                                                                text-decoration:none
+                                                                                                                            }
+
+                                                                                                                            .contact a:hover {
+                                                                                                                                transform: scale(1.2);
                                                                                                                             }
 
                                                                                                                             /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -251,7 +260,6 @@
                                                                                                                                     justify-content: center;
                                                                                                                                 }
                                                                                                                                 .about-me {
-                                                                                                                                    margin-bottom: 500px;
                                                                                                                                     width: 100%;
                                                                                                                                     flex-direction: column;
                                                                                                                                     flex: 0 0 100%;
@@ -287,7 +295,6 @@
                                                                                                                                     width: 100%;
                                                                                                                                 }
                                                                                                                                 .container {
-                                                                                                                                    margin-top: 10px;
                                                                                                                                     flex: 0 0 100%;
                                                                                                                                     flex-direction: column;
                                                                                                                                     align-items: center;
