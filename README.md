@@ -9,7 +9,8 @@ A website to where future employers will be able to see my work and find my cont
 
 ## Website
 https://sophiehomer.github.io/Portfolio/
-<img width="1264" alt="Screen Shot 2022-01-06 at 6 05 50 PM" src="https://user-images.githubusercontent.com/95515946/148701093-2ea61cc0-dbe0-4585-9532-df8dc7d031ce.png">
+<img width="1117" alt="Screen Shot 2022-02-12 at 8 19 53 PM" src="https://user-images.githubusercontent.com/95515946/153738448-a47c06a7-cc36-4d78-8bce-53f8e0b854be.png">
+
 ## Contribution
 Made with ❤️ by Sophie Homer
 
