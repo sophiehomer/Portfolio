@@ -57,7 +57,6 @@
                                                                                                                             /* FOOTER STYLES  */
                                                                                                                             .footer {
                                                                                                                                 background-color: #F5F1E7;
-                                                                                                                                padding: 40px 35px;
                                                                                                                                 display: flex;
                                                                                                                                 justify-content: space-between;
                                                                                                                                 flex-wrap: wrap;
@@ -78,13 +77,14 @@
                                                                                                                            
                                                                                                                             /* SECTION STYLES */
                                                                                                                             section {
-                                                                                                                                margin-bottom: 100px;
+                                                                                                                                margin-bottom: 20px;
                                                                                                                                 padding: 50px;
                                                                                                                                 height: 300px;
                                                                                                                                 width: 80%;
                                                                                                                                 display: flex;
                                                                                                                                 flex-wrap: nowrap;
                                                                                                                                 align-items: center;
+                                                                                                                        
                                                                                                                             }
                                                                                                                             
                                                                                                                             section h2 {
@@ -96,11 +96,16 @@
                                                                                                                                 font-size: 20px;
                                                                                                                                 flex: 0 0 30%;
                                                                                                                             }
+
+                                                                                                                            .contact {
+                                                                                                                                margin-top: 200px;
+                                                                                                                            }
                                                                                                                             
                                                                                                                             .section-info {
                                                                                                                                 flex: 0 0 70%;
                                                                                                                                 display: flex;
                                                                                                                                 align-items: center;
+                                                                                                        
                                                                                                                             }
 
                                                                                                                             /* "ABOUT ME" STYLES  */
@@ -154,20 +159,37 @@
                                                                                                                                 font-size: 15px;
                                                                                                                             }
 
-                                                                                                                            /* DINNER & DRINKS */
-                                                                                                                            .dinner-drinks-img {
+                                                                                                                            /* KIT */
+                                                                                                                            .kit-img {
                                                                                                                                 height: 200px;
                                                                                                                                 width: 700px;
-                                                                                                                                background-image: url("images/dinner-drinks.png");
+                                                                                                                                background-image: url("images/kit-img.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center top;
                                                                                                                                 display: block;
                                                                                                                                 margin-right: 0;
                                                                                                                                 margin-bottom: 10px;
-                                                                                                                                /* margin-top: 400px; */
+                                                                                                                                margin-top: 100px;
                                                                                                                                 border: .5px solid black;
                                                                                                                             }
                                                                                                                             
+                                                                                                                            .kit-img:hover {
+                                                                                                                                opacity: .5;
+                                                                                                                            }
+
+                                                                                                                            /* DINNER & DRINKS */
+                                                                                                                            .dinner-drinks-img {
+                                                                                                                                height: 150px;
+                                                                                                                                width: 345px;
+                                                                                                                                /* margin-left: 10px; */
+                                                                                                                                /* margin-top: 10px; */
+                                                                                                                                background-image: url("images/dinner-drinks.png");
+                                                                                                                                background-size: cover;
+                                                                                                                                background-position: center;
+                                                                                                                                display: block;
+                                                                                                                                border: .5px solid black; 
+                                                                                                                            }
+
                                                                                                                             .dinner-drinks-img:hover {
                                                                                                                                 opacity: .5;
                                                                                                                             }
@@ -176,7 +198,7 @@
                                                                                                                             .horiseon-img {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 345px;
-                                                                                                                                margin-left: 10px;
+                                                                                                                                /* margin-left: 10px; */
                                                                                                                                 margin-top: 10px;
                                                                                                                                 background-image: url("images/horiseon.png");
                                                                                                                                 background-size: cover;
@@ -193,6 +215,7 @@
                                                                                                                             .run-buddy-img  {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 345px;
+                                                                                                                                 margin-left: 10px;
                                                                                                                                 background-image: url("images/run-buddy.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
@@ -209,7 +232,7 @@
                                                                                                                             .weather-dashboard-img {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 345px;
-                                                                                                                                margin-left: 10px;
+                                                                                                                                margin-top: 10px;
                                                                                                                                 background-image: url("images/weather-dashboard.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
@@ -225,7 +248,8 @@
                                                                                                                             .work-day-scheduler-img {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 345px;
-                                                                                                                                margin-top: 10px;
+                                                                                                                                /* margin-top: 10px; */
+                                                                                                                                margin-left: 10px; 
                                                                                                                                 background-image: url("images/work-day-scheduler.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
@@ -270,11 +294,7 @@
                                                                                                                                     flex: 0 0 100%;
                                                                                                                                     text-align: center;
                                                                                                                                 }
-                                                                                                                                /* .about-me img {
-                                                                                                                                    margin-top: 10px;
-                                                                                                                                    margin-left: 65px;
-                                                                                                                                    margin-bottom: 10px;
-                                                                                                                                } */
+                                                                                                                              
                                                                                                                                 .about-me h2 {
                                                                                                                                     flex: 0 0 100%;
                                                                                                                                     flex-direction: column;
@@ -294,12 +314,13 @@
                                                                                                                                     text-align: center;
                                                                                                                                 }
                                                                                                                                 .my-work {
-                                                                                                                                    padding: 2px;
-                                                                                                                                    margin-top: 600px;
+                                                                                                                                    /* padding: 2px;
+                                                                                                                                    margin-top: 600px; */
                                                                                                                                     flex: 0 0 100%;
                                                                                                                                     flex-direction: column;
                                                                                                                                     text-align: center;
                                                                                                                                     width: 100%;
+                                                                                                                
                                                                                                                                 }
                                                                                                                                 .container {
                                                                                                                                     /* margin-top: 400px; */
@@ -312,7 +333,7 @@
                                                                                                                                     width: 350px;
                                                                                                                                 }
                                                                                                                                 .contact {
-                                                                                                                                    margin-top: 550px;
+                                                                                                                                    /* margin-top: 550px; */
                                                                                                                                     flex: 0 0 100%;
                                                                                                                                     flex-direction: column;
                                                                                                                                     text-align: center;
