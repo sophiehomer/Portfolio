@@ -159,18 +159,33 @@
                                                                                                                                 font-size: 15px;
                                                                                                                             }
 
-                                                                                                                            /* KIT */
-                                                                                                                            .kit-img {
+                                                                                                                             /* DRAW THE LINE */
+                                                                                                                             .draw-the-line-img {
                                                                                                                                 height: 200px;
                                                                                                                                 width: 700px;
-                                                                                                                                background-image: url("images/kit-img.png");
+                                                                                                                                background-image: url("images/draw-the-line.png");
                                                                                                                                 background-size: cover;
-                                                                                                                                background-position: center top;
+                                                                                                                                background-position: center;
                                                                                                                                 display: block;
                                                                                                                                 margin-right: 0;
                                                                                                                                 margin-bottom: 10px;
                                                                                                                                 margin-top: 100px;
                                                                                                                                 border: .5px solid black;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .draw-the-line-img:hover {
+                                                                                                                                opacity: .5;
+                                                                                                                            }
+
+                                                                                                                            /* KIT */
+                                                                                                                            .kit-img {
+                                                                                                                                height: 150px;
+                                                                                                                                width: 345px;
+                                                                                                                                background-image: url("images/kit-img.png");
+                                                                                                                                background-size: cover;
+                                                                                                                                background-position: center;
+                                                                                                                                display: block;
+                                                                                                                                border: .5px solid black; 
                                                                                                                             }
                                                                                                                             
                                                                                                                             .kit-img:hover {
@@ -181,8 +196,8 @@
                                                                                                                             .dinner-drinks-img {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 345px;
-                                                                                                                                /* margin-left: 10px; */
-                                                                                                                                /* margin-top: 10px; */
+                                                                                                                                margin-left: 10px; 
+
                                                                                                                                 background-image: url("images/dinner-drinks.png");
                                                                                                                                 background-size: cover;
                                                                                                                                 background-position: center;
@@ -194,40 +209,6 @@
                                                                                                                                 opacity: .5;
                                                                                                                             }
 
-                                                                                                                            /* HORISEON */
-                                                                                                                            .horiseon-img {
-                                                                                                                                height: 150px;
-                                                                                                                                width: 345px;
-                                                                                                                                /* margin-left: 10px; */
-                                                                                                                                margin-top: 10px;
-                                                                                                                                background-image: url("images/horiseon.png");
-                                                                                                                                background-size: cover;
-                                                                                                                                background-position: center;
-                                                                                                                                display: block;
-                                                                                                                                border: .5px solid black;
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            .horiseon-img:hover {
-                                                                                                                                opacity: .5;
-                                                                                                                            }
-
-                                                                                                                            /* RUN BUDDY */
-                                                                                                                            .run-buddy-img  {
-                                                                                                                                height: 150px;
-                                                                                                                                width: 345px;
-                                                                                                                                 margin-left: 10px;
-                                                                                                                                background-image: url("images/run-buddy.png");
-                                                                                                                                background-size: cover;
-                                                                                                                                background-position: center;
-                                                                                                                                display: block;
-                                                                                                                                border: .5px solid black;
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            .run-buddy-img:hover {
-                                                                                                                                opacity: .5;
-                                                                                                                            }
-
-                                                                                                                          
                                                                                                                             /* WEATHER DASHBOARD */
                                                                                                                             .weather-dashboard-img {
                                                                                                                                 height: 150px;
@@ -248,7 +229,6 @@
                                                                                                                             .work-day-scheduler-img {
                                                                                                                                 height: 150px;
                                                                                                                                 width: 345px;
-                                                                                                                                /* margin-top: 10px; */
                                                                                                                                 margin-left: 10px; 
                                                                                                                                 background-image: url("images/work-day-scheduler.png");
                                                                                                                                 background-size: cover;
